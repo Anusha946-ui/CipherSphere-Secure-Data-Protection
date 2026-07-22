@@ -34,16 +34,17 @@ A secure web application for encrypting and decrypting text, files, and images t
 
 ## Project Structure
 
+
 ```
 CipherSphere-SecureDataProtection/
-│── app.py
-│── config.py
-│── models.py
-│── __init__.py
-│── instance/
-│── static/
-└── templates/
-```
+├── instance/
+├── static/
+├── templates/
+├── app.py
+├── config.py
+├── models.py
+└── __init__.py
+
 
 ---
 
