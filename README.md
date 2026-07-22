@@ -61,6 +61,4 @@ CipherSphere-SecureDataProtection/
 
 **Anusha**
 
-**Anusha**  
-B.Tech – Computer Science and Engineering  
-Malla Reddy College of Engineering and Technology
+
