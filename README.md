@@ -1,4 +1,4 @@
-# CipherSphere – Secure Data Protection
+# CipherSphere – Secure Data Encryption and Decryption
 
 A secure web application for encrypting and decrypting text, files, and images through a simple and user-friendly interface. CipherSphere helps protect sensitive data by ensuring confidentiality, integrity, and secure access.
 
@@ -36,7 +36,7 @@ A secure web application for encrypting and decrypting text, files, and images t
 
 
 ```
-CipherSphere-SecureDataProtection/
+CipherSphere-SecureDataEncryptionandDecryption/
 ├── instance/
 ├── static/
 ├── templates/
