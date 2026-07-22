@@ -1,0 +1,184 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body and general layout */
+body {
+    background: linear-gradient(135deg, #6e7dff, #38d39f);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align at the top */
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    padding-top: 60px; /* Ensure space for header */
+}
+
+
+
+/* Main container */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 120px; /* Ensure spacing from header */
+}
+
+/* Title */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center form elements */
+}
+/* Form Labels */
+label {
+    margin: 0 0 2px; /* Remove or reduce margin at the top, keeping only a small margin at the bottom */
+    text-align: center; /* Center the labels */
+    font-size: 1.1rem;
+    color: #333;
+    width: 100%;
+    position: relative; /* Allow for more precise control over label positioning */
+    top: -7px; /* Move the label higher (you can adjust this value as needed) */
+}
+
+
+/* Form Inputs */
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s;
+    width: 100%; /* Make inputs full width */
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #3997ce;
+}
+
+/* Checkbox */
+label input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #3997ce;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make button full width */
+}
+
+button[type="submit"]:hover {
+    background-color: #356db6;
+    transform: scale(1.02); /* Slightly grow the button */
+    box-shadow: 0 4px 15px rgba(221, 210, 210, 0.432);
+
+}
+
+/* Error message */
+p {
+    color: red;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Sign-up link */
+/* Sign-up link */
+a {
+    text-decoration: none;
+    color: #1883c0;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 1.22rem;
+    padding: 10px;
+    transition: color 0.3s ease, font-size 0.2s ease; /* Added font-size transition */
+}
+
+a:hover {
+    color: #0045ad;
+    transform: scale(1.05); /* Slightly grow the button */
+    box-shadow: 0 4px 15px rgba(221, 210, 210, 0.74);
+}
+
+
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Navigation bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    transform: scale(1.1); /* Increase the size of the button */
+    background-color: #66cfca; /* Change background color */
+    color: white; /* Keep the text color white */
+    box-shadow: 0 4px 15px rgba(187, 183, 183, 0.808);
+}
+.success-message{
+    color:green;
+    background-color:#e6ffef;
+    border:1px solid green;
+    padding:10px;
+    margin-top:10px;
+    border-radius:10px;
+}
+
+/* Main container */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 40px; /* Ensure spacing from header */
+}

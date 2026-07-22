@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cipher Sphere - Secure Data Protection</title>
+    <link rel="stylesheet" href="/static/css/style1.css">
+</head>
+<body>
+    <!-- Header with Home, Main Menu, and Logout buttons -->
+    <header>
+        <h1><b>Welcome to Cipher Sphere - Secure Data Protection</b></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Main Menu</a></li>
+                <li><a href="/logout">Logout</a></li>
+            </ul>  
+        </nav>      
+    </header>
+
+    <div class="container">
+        <h2 style="font-size: 30px; text-align: center;">Encryption and Decryption</h2>
+        <ul>
+            <!-- Update the href to point to the Flask route -->
+            <li><a href="{{ url_for('dashboard1') }}">Encrypt/Decrypt Text</a></li>
+            <li><a href="{{ url_for('dashboard2') }}">Encrypt/Decrypt File</a></li>
+            <li><a href="{{ url_for('dashboard3') }}">Encrypt/Decrypt Image</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Cipher Sphere</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="/static/css/st.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-title">Cipher Sphere - Secure Data Protection</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+                <li><a href="{{ url_for('signup') }}">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <h1 class="hero-title">Welcome to Cipher Sphere</h1>
+            <p class="hero-description">Your Secure Data Protection Platform</p>
+        </section>
+    </main>
+
+    <div class="announcement">
+        <marquee behavior="scroll" direction="left">
+            <span> Encrypt and Decrypt your data,files and images with ease and security! </span>
+        </marquee>
+    </div>
+
+    
+</body>
+</html>
+
+
+

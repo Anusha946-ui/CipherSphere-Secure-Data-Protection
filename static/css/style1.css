@@ -1,0 +1,115 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body and general layout */
+body {
+    background: linear-gradient(135deg, #6e7dff, #38d39f); /* Gradient background */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    height: 100vh; /* Full height of the viewport */
+    padding: 0 20px;
+    margin: 0; /* Remove any default margin */
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin: 0; /* Remove margin to avoid any space around the header */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    border-radius: 0; /* Remove rounding from header for full width */
+    width: 100%; /* Ensures full width */
+    position: absolute; /* Keeps it at the top */
+    top: 0;
+    left: 0;
+    z-index: 100; /* Ensures it's on top of other content */
+}
+
+/* Header title */
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 0; /* Remove margin from header text */
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    background-color: #3a38d3; /* Hover background color */
+    color: #fff;
+    transform: scale(1.05); /* Slightly grow the button */
+    box-shadow: 0 4px 15px rgba(221, 210, 210, 0.623);
+}
+
+/* Container for the main content */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 40px 50px; /* Increased padding */
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Larger shadow for a more prominent effect */
+    width: 100%;
+    max-width: 600px; /* Increased width */
+    text-align: center;
+    margin-top: 80px; /* Ensures spacing from the header */
+}
+
+/* Container title */
+.container h2 {
+    font-size: 2rem;
+    margin-bottom: 30px; /* Increased bottom margin */
+    color: #333;
+    font-weight: bold;
+}
+.container ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px; /* Increased space between heading and buttons */
+}
+
+.container ul li {
+    margin: 35px 0; /* Increased margin for space between buttons */
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #2547a7;
+    font-size: 1.3rem;
+    font-weight: 600; /* Added font-weight to make the text thicker */
+    padding: 12px 25px; /* Increased padding for larger buttons */
+    border-radius: 6px; /* Slightly larger rounded corners */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container ul li a:hover {
+    background-color: #3a38d3;
+    color: #fff;
+}

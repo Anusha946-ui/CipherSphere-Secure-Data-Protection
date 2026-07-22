@@ -1,0 +1,87 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cipher Sphere-Secure Data Protection</title>
+     <link rel="stylesheet" href="/static/css/styles22.css">
+     <head>
+        <!-- Your other head content -->
+        <script src="path/to/your/script1.js" defer></script>
+      </head>
+       
+    
+</head>
+<body>
+    <!-- Header with Home, Main Menu, and Logout buttons -->
+    <header><h1><b>Cipher Sphere - Secure Data Protection</b></h1>
+            <nav>
+            
+                <ul>
+                   
+                    <li><a href="/mainmenu">Mainmenu</a></li>
+                    <li><a href="/dashboard2">Encrypt/Decrypt Files</a></li>
+                    <li><a href="/dashboard3">Encrypt/Decrypt Images</a></li>
+                    <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                </ul>   
+            </nav>
+            
+             
+        </header>
+
+    <!-- Main content area -->
+    <h2>Text Encryption & Decryption</h2>
+    <div class="container">
+    
+    <div class="form-group">
+        <label for="text">Text :</label>
+        <textarea id="text" placeholder="Enter text ..."></textarea>
+    </div>
+    
+    <div class="form-group">
+        <label for="key">Key :</label>
+        <input type="password" id="key" placeholder="Enter key">
+        <button id="password-toggle" onclick="togglePassword()">Show Key</button>
+    </div>
+
+    
+    <div class="button-group">
+        <button onclick="encryptText()">Encrypt</button>
+        <button onclick="decryptText()">Decrypt</button>
+    </div>
+    
+    <div class="form-group">
+        <label for="result">Result :</label>
+        <textarea id="result" placeholder="Result will appear here..." readonly></textarea>
+    </div>
+
+    <div class="button-group">
+        <button onclick="copyToClipboard()">Copy</button>
+        <button onclick="saveFile()">Save</button>
+
+        
+        
+        <button onclick="loadFile()">Load </button>
+        <button onclick="resetData()">Reset</button>
+    </div>
+</div>
+    <!-- Message area -->
+    <div id="message"></div>
+
+    <!-- Success/Error dialog boxes -->
+    <dialog id="successDialog">
+        <button class="dialog-close" onclick="closeDialog('successDialog')">×</button>
+        <p id="successMessage">Success!</p>
+        <button onclick="closeDialog('successDialog')">OK</button>
+    </dialog>
+
+    <dialog id="errorDialog">
+        <button class="dialog-close" onclick="closeDialog('errorDialog')">×</button>
+        <p id="errorMessage">An error occurred!</p>
+        <button onclick="closeDialog('errorDialog')">OK</button>
+    </dialog>
+
+    <script src="static/js/script1.js"></script>
+</body>
+</html> 
